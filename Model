@@ -5,8 +5,8 @@ class Registration(models.Model):
     School_Name = models.CharField(max_length=200)
     Max_Students = models.IntegerField(default=0)
     Date = models.DateTimeField('Reg_Date')
-def __unicode__(self):
-    	return self.School_ID
+#def __unicode__(self):
+    #	return self.School_ID
 
 
 class Attendance(models.Model):
@@ -14,21 +14,10 @@ class Attendance(models.Model):
     Date = models.DateTimeField('DATE')
     Attendance = models.IntegerField(default=0)
 
-def __unicode__(self):         	'
-    	return self.Date
+#def __unicode__(self):         	'
+   # 	return self.Date
 
 ------------------------------code done-----------------
 
 
-SPLIT THE INPUT STRING.
-
-
-!#/bin/bash
-s="IIT PATNA-A123-7710847483-4/3/15-1000"
-COLLEGE="$( cut -d "-" -f 1 <<< "$s" )"
-	 echo "$COLLEGE"
-
-
----------------------------------
-http://stackoverflow.com/questions/6091965/django-upload-a-file-and-read-its-content-to-populate-a-model
 
