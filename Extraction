@@ -1,0 +1,15 @@
+#Assuming only one file name. Will have to modify for multiple file names and figure out a way of naming.
+
+# Reading the File
+f = open('path/workfile.att', 'r+')
+
+# Splitting it
+arr = f.split(".")
+
+# Storing in the Database
+a = reg(s_id=arr[0],s_name=arr[1],)
+a.save()
+
+# Move the file in another folder, namely “Processed”
+shutil.move("path/to/current/file.att", "path/to/new/destination/for/file.att")
+
