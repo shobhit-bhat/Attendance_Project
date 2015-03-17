@@ -1,4 +1,4 @@
-#this python code moves a text files with prefix 'a' and 'r' and moves it to two different director.
+# This python code moves a text files with prefix 'a' and 'r' and moves it to two different director.
 
 
 import os
