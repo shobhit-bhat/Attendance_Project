@@ -1,7 +1,7 @@
-#This is a crontab code.This code will run a script(python in this case) in every minute.
-We can adjust the time gap between running the script according to our wish.
+# This is a crontab code. This code will run a script(python in this case) in every minute.
+# We can adjust the time gap between running the script according to our wish.
 
-#script.py is the script to run.
+# Script.py is the script to run.
 
-*/1 * * * * python /path/script.py
+*/1 * * * * python /path/Script.py
 
